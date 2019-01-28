@@ -1,0 +1,28 @@
+<!-- <ngx-carousel class="banner" [inputs]="carouselBanner" (carouselLoad)="carouselBannerLoad()">
+  <ngx-item NgxCarouselItem *ngFor="let tile of carouselBannerItems; let i = index;">
+      <div class="bannerStyle" [style.background]="'url(' + tile + ')'">
+          <h1>{{i}}</h1>
+      </div>
+  </ngx-item>
+  <button NgxCarouselPrev class="leftRs">&lt;</button>
+  <button NgxCarouselNext class="rightRs">&gt;</button>
+</ngx-carousel> -->
+
+<!-- main -->
+<div class="container-fluid">
+  
+<div class="container">
+  <div class="title"><h1>Our Associates</h1></div>
+  <ngx-carousel [inputs]="carouselTile" (carouselLoad)="carouselTileLoad()">
+      <ngx-tile NgxCarouselItem *ngFor="let tile of carouselTileItems; let i = index;">
+          <div class="tile" [style.background]="'url(' + tile + ')'">
+             
+          </div>
+      </ngx-tile>
+      <button NgxCarouselPrev class="leftRs">&lt;</button>
+      <button NgxCarouselNext class="rightRs">&gt;</button>
+  </ngx-carousel>
+
+  
+</div>
+</div>

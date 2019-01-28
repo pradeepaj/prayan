@@ -1,0 +1,449 @@
+
+.carousel-fullscreen .carousel-inner .item {
+    height: 100vh; 
+    min-height: 600px; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+/* carousel fullscreen - vertically centered caption*/
+
+.carousel-fullscreen .carousel-caption {
+    top: 50%;  
+    left: 7%;
+    bottom: auto;
+    -webkit-transform: translate(0, -50%); 
+    -ms-transform: translate(0, -50%); 
+    transform: translate(0, -50%);
+}
+
+/* overlay for better readibility of the caption  */
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    transition: all 0.2s ease-out;
+}
+
+
+/* demo typography */
+
+h1,h2,h3,h4 {
+    font-weight: 700;
+}
+
+.super-heading {
+    font-size: 70px; 
+}
+
+
+.super-paragraph {
+    font-size: 30px; font-weight: 300;
+}
+
+.carousel-caption .super-paragraph a,
+.carousel-caption .super-paragraph a:hover
+{
+    color: #fff;
+}
+
+#carousel-example-generic {
+    margin: 40px 0;
+}
+.carousel-button{
+    background-color: #ed3e3e;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border: #ed3e3e;
+}
+a.banner-button {
+    color: white;
+}
+/* carousel fade */
+/* original solution by https://codepen.io/Rowno/pen/Afykb */
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/* my css */
+span.glyphicon.glyphicon-chevron-left {
+    margin-left: -70px;
+    font-size: 40px;
+    
+}
+span.glyphicon.glyphicon-chevron-right {
+    margin-right: -70px;
+    font-size: 40px;
+}
+.carousel-caption {
+    width: 550px;
+}
+.super-heading {
+    font-size: 55px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .carousel-fullscreen .carousel-caption {
+       
+        left: none;
+        
+       
+    }
+    .carousel-caption {
+        width: auto !important;
+    }
+    span.glyphicon.glyphicon-chevron-left {
+        margin-left: auto !important;
+        font-size: 21px !important;
+    }
+    span.glyphicon.glyphicon-chevron-right {
+        margin-right: auto !important;
+        font-size: 21px !important;
+    }
+}
+
+/* carousel end */
+
+/* liki-start */
+.second{
+    background-color: white;
+    padding: 30px;
+}
+.wr{
+    padding: 20px;
+}
+.fd{
+    background-color: #0174c5;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+
+.fd2{
+    margin: 0px 20px 0px 20px;
+    background-color: #0174c5;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+.r1{
+    background-image: url(../../assets/images/1.jpg);
+    height: 300px;
+}
+.r2{
+    background-color: white;
+    height: 300px;
+    color: black;
+}
+.write{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding: 60px;
+}
+.write1{
+    font-size: 18px;
+    text-align: center;
+    padding: 60px;
+}
+.button{
+    font-size: 20px;
+    margin-left: 120px;
+    color: white;
+    background-color: #000000;
+}
+h1.secdiv-right-title {
+    color: #0174c5;
+}
+.getintouch{
+    color:white;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.write{
+    font-size: 20px;
+    padding: 30px;
+}
+.write1{
+    padding: 24px;
+}
+.fd2{
+    margin: 0px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+}
+
+/* case start */
+ /* case start */
+.card{
+    background-image: url("../../assets/images/2.jpg");
+}
+.card1{
+    padding: 60px;
+ }
+.head {
+    text-align: center;
+    padding: 50px;
+   
+    background-color: #0174c5;
+    color: #fff;
+   
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+.description {
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+.image img{
+    width: 100%
+}
+.top{
+    background-color: #0174c5;
+    position: absolute;
+    top: 168px;
+    color: #fff;
+    max-width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 77px 10px 10px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+
+.top:hover {
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,.1), inset 0 -5px 0 rgba(255,255,255,.03), inset -10px 0 0 rgba(0,0,0,.2), inset -11px 0 0 rgba(255,255,255,.05), inset -20px 0 0 rgba(0,0,0,.1), inset -21px 0 0 rgba(255,255,255,.05);
+}
+
+.cardele{
+    padding: 10px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.card1{
+    padding: 0px;
+}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+.card1{
+    padding: 25px;
+}
+}
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+.top{
+   top :140px;
+}
+}
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+/* Styles */
+.top{
+    top :160px;
+ }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+.top{
+    top: 348px;
+ }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (orientation : landscape) {
+/* Styles */
+.top{
+    top: 127px;
+}
+}
+/* case end */
+
+
+/* liki end */
+
+/* practice section start*/
+section.practice {
+    margin-top: 45px;
+    padding-bottom: 120px;
+}
+.practice-left {
+    margin-bottom: 0;
+    text-align: justify;
+    padding-right: 101px;
+    padding-top: 94px;
+}
+.practice-left-title {
+    font-size: 33px;
+    color: #0174c5;
+    font-weight: bold;
+}
+.practice-left-content {
+    font-size: 18px;
+}
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+.practice-icon {
+    font-size: 50px;
+   padding: 10px 10px 0px 0px;
+}
+.practice-title {
+    font-size: 22px;
+    color: #0174c5;
+    padding: 2px 10px 10px 0px;
+}
+.readmore  {
+    padding: 10px 0px;
+    
+}
+.readmore a {
+    padding: 10px 0px;
+    color: #ed3e3e;
+    font-size: 16px;
+}
+h1.title-verticale {
+    font-size: 21px;
+}
+h1.main-title {
+    font-size: 45px;
+    line-height: 1.3;
+}
+a.link-readmore:hover {
+    color: #0174c5;
+}
+img.service-img {
+    width: 40%;
+}
+.practice-row2 {
+    padding-top: 26px;
+}
+/* practice section end */
+
+/* contact starts */
+.contact{
+    background-color: #0174c5;
+    color: #fff;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+.button_con{
+    font-size: 20px;
+    color: white;
+    background-color: #000000;
+}
+.con_icon {
+    font-weight: bold;
+    font-size: 30px;}
+.con_icon img{
+    width: 55px;
+}
+.full {
+    padding: 36px;}
+    .con_text{
+        font-weight: bold;
+        text-align: center;
+        line-height: 3.4;
+    }
+    .hr-contact-left hr{ 
+        border-left: 1px solid hsl(205, 8%, 58%);
+        height: 75px;
+        width: 0px;
+        position: absolute;
+        margin-top: 0px;      
+    }
+    .hr-contact-right hr{ 
+        border-left: 1px solid hsl(205, 8%, 58%);
+        height: 75px;
+        width: 0px;
+        position: absolute;
+        margin-top:-48px;
+        margin-left: 700px;     
+    }
+    .contactlink{
+        color: #fff;
+    }
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.button_con{
+    margin-left: 57px;
+}
+.hr-contact-left hr{
+    display: none;
+}
+.hr-contact-right hr{
+    display: none;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+.button_con {
+    margin-left: 156px;
+}
+}
+/* contact ends */
+
+/* Testinominals start */
+
+/* Testinominals end */
+
+
+

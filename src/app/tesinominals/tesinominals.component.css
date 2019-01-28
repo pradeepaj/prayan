@@ -1,0 +1,123 @@
+.test-heading {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+.test-heading::after {
+    content: "";
+    width: 113px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    background: #0174c5;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+    padding: 40px 60px 10px 60px;
+    font-size: 18px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #0174c5;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 36px;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: #0174c5;
+   
+    border-radius: 50%;
+    border: 1px solid #0174c5;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+    color:#0174c5;	
+    background: #0174c5;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.row.testinominals {
+    margin: 50px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.carousel {
+    margin: 0px;
+    padding: 0px;
+}
+.carousel .testimonial{
+    padding: 0px;
+    font-size: 18px;
+}
+.testimonial p {
+	margin:0px;
+}
+.carousel-control-prev{
+	margin-left:-83px;
+}
+.carousel-control-next{
+	margin-right:-40px;
+}
+}

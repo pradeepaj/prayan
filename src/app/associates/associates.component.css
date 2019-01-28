@@ -1,0 +1,145 @@
+.bannerStyle {
+    background-color: #ccc;
+    background-size: cover !important;
+    height: 100%;
+}
+
+.bannerStyle img {
+    width: 100%;
+    height: 100%;
+}
+
+.bannerStyle h1 {
+    text-align: center;
+    line-height: 400px;
+    background: rgba(0, 0, 0, 0.32);
+    color: white;
+    margin: 0;
+}
+
+.tile {
+    min-height: 98px;
+    background-color: #ccc;
+    background-size: cover !important;
+}
+
+.tile h1 {
+    text-align: center;
+    line-height: 200px;
+    background: rgba(0, 0, 0, 0.32);
+    color: white;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0 15px 10px;
+    text-align: center;
+}
+
+.wBg {
+    background: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    z-index: 12;
+}
+
+nav h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.carBtn {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+    border-radius: 999px;
+}
+
+.leftRs {
+    position: absolute;
+    margin: 33px -67px;
+    top: 0;
+    bottom: 0;
+    font-size: 33px !important;
+    
+    
+    width: 52px;
+    height: 52px;
+    background: transparent;
+    box-shadow: 1px 2px 10px -1px rgba(1, 116, 195);
+    border-radius: 999px;
+    left: 0;
+    border: 1px solid #0174c5;
+    outline: 0;
+    color: #0174c5;
+}
+
+.rightRs {
+    position: absolute;
+    margin: 33px -67px;
+    top: 0;
+    bottom: 0;
+    font-size: 33px !important;
+    width: 52px;
+    height: 52px;
+    background: transparent;
+    box-shadow: 1px 2px 10px -1px rgba(1, 116, 195);
+    border-radius: 999px;
+    border: 1px solid #0174c5;
+    outline: 0;
+    color: #0174c5;
+    right: 0;
+}
+
+.title {
+    text-align: center;
+    padding: 33px 0px;
+    color: #0174c5;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .tile[_ngcontent-c5] {
+        min-height: 54px;
+       
+    }
+   
+    .rightRs {
+        margin: 14px -31px;
+        font-size: 20px !important;
+        width: 41px;
+        height: 41px;
+       
+    }
+    .leftRs{
+      
+        margin: 14px -31px;
+         font-size: 20px !important;
+        width: 41px;
+        height: 41px;
+      
+    }
+}
