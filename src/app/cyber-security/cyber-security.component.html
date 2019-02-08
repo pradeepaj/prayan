@@ -1,0 +1,230 @@
+
+
+
+<div class="container-fluid">
+  <div class="row"> <div class="col-md-12 col-12 training-banner">
+      <img class="img-training-banner" src="assets/images/cyber-banner.jpg" alt="loading">
+      <div class="training-text">
+        <h1 class="training-title">Cyber security</h1>
+        <p class="training-content">All the great things are simple, and many<br> can be expressed in a single word:</p>
+        <button class="training-banner-button">Contact Us</button>
+      </div>
+    </div></div>
+</div>
+
+   
+   
+
+<!-- practice areas -->
+<section class="practice" style="background-color:white; ">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-4 col-12"  >
+    <div class="practice-left">
+        <div class="practice-left-title">
+            <h1 class="main-title">COURSE HIGHLIGHTS</h1>
+          </div>
+          <div class="horg-line"><hr class="style5"></div>
+          <div class="practice-left-content">All the great things are simple, and many can be expressed in a single word:
+             freedom, justice, honor, duty, mercy, hope.</div>
+             <div class="cource-curru">
+                <button type="button" class="btn btn-info btn-lg course-highlights"  (click)="toggle()">{{buttonName}}</button>
+      </div>
+        </div>
+    </div>
+    
+    <div class="col-md-8 col-12" > 
+    <div class="row practice-row1" *ngIf="!(show)">
+      <div class="col-md-3 col-sm-6">
+        <div class="practice-right-indi">
+            <div class="practice-icon">
+              <img class="service-img" src="assets/images/course-curricullum-1.png" alt="Loading"></div>
+            <div class="practice-title"><h1 class="title-verticale">Web Development</h1></div>
+            <div class="practice-content">Sustainable development is the pathway to the future</div>
+            <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing">ReadMore</a></div>
+        </div>
+        
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="practice-right-indi">
+              <div class="practice-icon">
+                <img class="service-img" src="assets/images/course-curricullum-2.png" alt="Loading"></div>
+              <div class="practice-title"><h1 class="title-verticale">Mobile Applications</h1></div>
+              <div class="practice-content">Sustainable development is the pathway to the future</div>
+              <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing"> ReadMore</a></div>
+          </div>
+        
+    </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="practice-right-indi"><div class="practice-icon">
+            <img class="service-img" src="assets/images/course-curricullum-3.png" alt="Loading"></div>
+          <div class="practice-title"><h1 class="title-verticale">Training</h1></div>
+          <div class="practice-content">Sustainable development is the pathway to the future</div>
+          <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing"> ReadMore</a></div>
+        </div>
+         
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="practice-right-indi"><div class="practice-icon">
+          <img class="service-img" src="assets/images/course-curricullum-4.png" alt="Loading"></div>
+        <div class="practice-title"><h1 class="title-verticale">Web Development</h1></div>
+        <div class="practice-content">Sustainable development is the pathway to the future</div>
+        <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing"> ReadMore</a></div>
+      </div>
+       
+    </div>
+    </div>
+    <div class="row practice-row2" *ngIf="!(show)">
+        <div class="col-md-3 col-sm-6">
+          <div class="practice-right-indi">
+              <div class="practice-icon">
+                <img class="service-img" src="assets/images/course-curricullum-5.png" alt="Loading"></div>
+              <div class="practice-title"><h1 class="title-verticale">Digital Marketing</h1></div>
+              <div class="practice-content">Sustainable development is the pathway to the future</div>
+              <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing"> ReadMore</a></div>
+          </div>
+          
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="practice-right-indi">
+                <div class="practice-icon"><img class="service-img" src="assets/images/course-curricullum-6.png" alt="Loading"></div>
+                <div class="practice-title"><h1 class="title-verticale">SEO</h1></div>
+                <div class="practice-content">Sustainable development is the pathway to the future</div>
+                <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing">ReadMore</a></div>
+            </div>
+          
+      </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="practice-right-indi">
+              <div class="practice-icon"><img class="service-img" src="assets/images/course-curricullum-7.png" alt="Loading"></div>
+            <div class="practice-title"><h1 class="title-verticale">Online Branding</h1></div>
+            <div class="practice-content">Sustainable development is the pathway to the future</div>
+            <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing">ReadMore</a></div>
+          </div>
+           
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="practice-right-indi"><div class="practice-icon"><img class="service-img" src="assets/images/course-curricullum-8.png" alt="Loading"></div>
+          <div class="practice-title"><h1 class="title-verticale">SEO</h1></div>
+          <div class="practice-content">Sustainable development is the pathway to the future</div>
+          <div class="readmore"><a class="link-readmore" routerLink="/digital-marketing">ReadMore</a></div>
+        </div>
+         
+    </div>
+      </div>
+
+      <div class="course-curricullum" *ngIf="show">
+   
+       <div class="row">
+          <div class="col-md-6 col-xs-12 "> 
+            <div class="curri-left">
+                <ul class="curri-left-ul">
+                  <li><i class="fas fa-caret-right"></i>Introduction to Ethical Hacking</li>
+                  <li><i class="fas fa-caret-right"></i>Foot printing Concepts</li>
+                  <li><i class="fas fa-caret-right"></i>Scanning Concepts </li>
+                  <li><i class="fas fa-caret-right"></i>Enumeration </li>
+                  <li><i class="fas fa-caret-right"></i>System Hacking</li>
+                  <li><i class="fas fa-caret-right"></i>Malware Threats</li>
+                  <li><i class="fas fa-caret-right"></i>Sniffing</li>
+                  <li><i class="fas fa-caret-right"></i>Social Engineers</li>
+                  <li><i class="fas fa-caret-right"></i>Denial of Service</li>
+                  
+                </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="curri-right">
+                <ul class="curri-right-ul">
+                    <li><i class="fas fa-caret-right"></i>Session Hijacking</li>
+                    <li><i class="fas fa-caret-right"></i>Hacking Web Server </li>
+                    <li><i class="fas fa-caret-right"></i>Hacking Web Applications</li>
+                    <li><i class="fas fa-caret-right"></i>SQL Injection</li>
+                    <li><i class="fas fa-caret-right"></i>Hacking Wireless Networks</li>
+                    <li><i class="fas fa-caret-right"></i>Hacking Mobile Platforms</li>
+                    <li><i class="fas fa-caret-right"></i>IOT Hacking</li>
+                    <li><i class="fas fa-caret-right"></i>Cloud Computing</li>
+                    <li><i class="fas fa-caret-right"></i>Cryptography</li>
+                  
+                  </ul>
+            </div>
+          </div>
+       </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- practice-area  end -->
+<!--case start-->
+<!--case start-->
+<div class="container-fluid"><div class="row head">
+  <h2>Case Study</h2>
+</div></div>
+
+
+
+<section class="card">
+  <div class="container"> <div class="row card1">
+      <div class="col-md-4 col-12">
+      <a routerLink="/digital-marketing"> 
+         <div class="cardele">
+        <div class="top">Data Analytics</div>
+        <div class="description">
+       <p>All the great things are simple, and many can be expressed in a 
+         single word: freedom, justice, honor, duty, mercy, hope
+         All the great things are simple, and many can be expressed in a 
+         single word: freedom, justice, honor, duty, mercy, hope
+         All the great things are simple, and many can be expressed in a 
+           single word: freedom, justice, honor, duty, mercy, hope
+        </p></div>
+        </div>
+      </a>
+      </div>
+      <div class="col-md-4 col-12">
+          <a routerLink="/digital-marketing">  
+                <div class="cardele">
+          
+          <div class="top">Cyber Security</div>
+          <div class="description">
+         <p>All the great things are simple, and many can be expressed in a 
+           single word: freedom, justice, honor, duty, mercy, hope
+           All the great things are simple, and many can be expressed in a 
+           single word: freedom, justice, honor, duty, mercy, hope
+           All the great things are simple, and many can be expressed in a 
+           single word: freedom, justice, honor, duty, mercy, hope
+          </p></div>
+          </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-12">
+            <a routerLink="/digital-marketing">   
+          <div class="cardele">
+            
+            <div class="top">Digital Marketing</div>
+            <div class="description">
+           <p>All the great things are simple, and many can be expressed in a 
+             single word: freedom, justice, honor, duty, mercy, hope
+             All the great things are simple, and many can be expressed in a 
+             single word: freedom, justice, honor, duty, mercy, hope
+             All the great things are simple, and many can be expressed in a 
+           single word: freedom, justice, honor, duty, mercy, hope
+            </p></div>
+            </div>
+            </a>
+          </div>
+    </div></div>
+
+</section>
+<!-- case end -->
+
+
+<!-- Testinominals start-->
+<app-tesinominals></app-tesinominals>
+
+<!-- Testinominals end -->
+
+<!-- associate start -->
+<app-associates></app-associates>
+  <!-- associate end -->
+

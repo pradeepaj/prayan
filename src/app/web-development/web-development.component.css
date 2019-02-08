@@ -1,0 +1,118 @@
+.centered { 
+    position: absolute;
+    padding: 50px;
+    top: 44%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.web-title{
+    color: blue;
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+  .design{ 
+    position: relative;
+    text-align: center;
+    padding-top: 33px;
+  }
+  .web-heading{
+    margin-top: 110px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 34px;
+      color: #0174c5;
+  }
+  .web-image img{
+      width: 1000px;
+      height: 500px;
+  }
+
+.tech-used-firstrow img{
+    width: 114px;
+    height: 80px;
+}
+.tech-used{
+    margin: 50px;
+}
+.tech-used-secondrow img{
+    width: 180px;
+    height: 80px;
+    padding-left: 90px;
+}
+.tech-used-firstrow{
+margin: 10px 206px 30px 260px;
+}
+.tech-used-secondrow{
+margin: 20px -100px 20px 30px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.web-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.centered {
+  position: absolute;
+  padding: 0px;
+  top: 51%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.web-title {
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.web-description {
+    font-size: 8px;
+}
+.tech-used-firstrow img{
+    width: 120px;
+    height: 80px;
+}
+.tech-used{
+    margin: 50px;
+}
+.tech-used-secondrow img{
+    width: 180px;
+    height: 80px;
+    padding-left: 90px;
+}
+.tech-used-firstrow {
+    margin-left: 50px;
+}
+.tech-used-secondrow {
+    margin: -19px;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+.web-image img{
+    width: 100%;
+    height: 100%;
+}
+.centered {
+    position: absolute;
+    padding: 0px;
+    margin-left: 354px;
+    top: 43%;
+    left: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}}

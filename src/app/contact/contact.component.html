@@ -1,4 +1,4 @@
-<div class="container contact-form">
+<!-- <div class="container contact-form">
   <div class="contact-image">
       <img src="assets/images/startup.png" alt="rocket_contact"/>
   </div>
@@ -52,7 +52,7 @@
             </div>
               <div class="form-group">
                 
-                  <!-- <button class="btnContact" type="submit" [disabled]="!f.valid">Send Message</button> -->
+                
                   <button
           class="btn btn-primary btnContact"
           type="submit"
@@ -62,4 +62,152 @@
           
       </div>
   </form>
-</div>
+</div> -->
+
+
+<div class="container-fluid">
+        <div class="row"> <div class="col-md-12 col-12 contact-banner">
+            <img class="img-contact-banner" src="https://bootstrapious.com/tutorial/carousel/img/carousel1.jpg" alt="loading">
+            <div class="contact-text">
+              <h1 class="contact-title">Contact US</h1>
+              <p class="contact-content">All the great things are simple, and many can be expressed in a single word</p>
+            
+            </div>
+          </div></div>
+      </div>
+      <div class="contact-us">
+          <div class="container">
+              <div class="row">
+                    <h1 class="who-we-are-title">
+                           Send us message
+                          </h1>
+                  <div class="cont-info">
+                      <div class="col-md-4 col-sm-4 col-12">
+                          <div class="icon-img"><img  class="contact-icon" src="assets/images/location-icon.png" alt="Loading"></div>
+                          <div class="full-address">
+                             <ul>
+                                 <li><h3 class="contact-sub-title">Coporate office(India)</h3></li>
+                                 <li>Prayan Learning Private Limited</li>
+                                 <li>first floor, maria plaza</li>
+                                 <li>Kalamassery, Ernakulam</li>
+                                 <li>Kerala 683104</li>
+                             </ul>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-4 col-12">
+                            <div class="icon-img"><img  class="contact-icon" src="assets/images/message-icon.png" alt="Loading"></div>
+                            <div class="full-address email">
+                               <ul>
+                                   <li><h3 class="contact-sub-title">Email</h3></li>
+                                   <li>info@prayanlearning.in</li>
+        
+                               </ul>
+                            </div>
+                      </div>
+                      <div class="col-md-4 col-sm-4 col-12">
+                            <div class="icon-img"><img  class="contact-icon" src="assets/images/phone-call-icon.png" alt="Loading"></div>
+                            <div class="full-address phone-number">
+                               <ul>
+                                   <li><h3 class="contact-sub-title">Phone number</h3></li>
+                                   <li>+91 848811818</li>
+                                   
+                               </ul>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+<div class="contact-form">
+      <div class="container">
+
+            <div class="row">
+        
+              <div class="col-lg-8 col-lg-offset-2">
+        
+             
+        
+                <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate >
+        
+                <div class="messages"></div>
+        
+                <div class="controls">
+        
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group"  [ngClass]="{
+                        'has-danger': name.invalid && (name.dirty || name.touched),
+                        'has-success': name.valid && (name.dirty || name.touched)}">
+                         <input  type="text" name="name" class="form-control" placeholder="Your Name" [(ngModel)]="model.name" #name="ngModel"
+                         required>
+                         <div *ngIf="name.errors && (name.dirty || name.touched)" class="alert alert-danger">
+                                <div *ngIf="name.errors.required"> Name is required</div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group"  [ngClass]="{
+                        'has-danger': name.invalid && (name.dirty || name.touched),
+                        'has-success': name.valid && (name.dirty || name.touched)}">
+                       <input  type="text" name="surname" class="form-control" [(ngModel)]="model.secname" #secname="ngModel" placeholder="Second Name" 
+                       required>
+                       required>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                  
+                    <div class="col-md-6">
+                      <div class="form-group"  [ngClass]="{
+                        'has-danger': name.invalid && (name.dirty || name.touched),
+                        'has-success': name.valid && (name.dirty || name.touched)}">
+                       <input  type="tel" name="phone" class="form-control" placeholder="Phone" [(ngModel)]="model.phone" #phone="ngModel" pattern="^\d{10}$"  required>
+                       <div *ngIf=" phone.errors && (phone.dirty || phone.touched) " class="alert alert-danger">
+                            <div *ngIf="phone.errors.required">Phone number required</div>
+                         <div *ngIf="phone.errors.pattern">Phone number must contain 10 digit</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="form-group"  [ngClass]="{
+                                'has-danger': name.invalid && (name.dirty || name.touched),
+                                'has-success': name.valid && (name.dirty || name.touched)}">
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email " [(ngModel)]="model.email"
+                        required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        #email="ngModel">
+                        <div *ngIf="email.errors && (email.dirty || email.touched)" class="alert alert-danger">
+                                <div *ngIf="email.errors.required"> Email is required</div>
+                                <div *ngIf="email.errors.pattern">Email must contain (@,.) character</div>
+                            </div>
+                            </div>
+                          </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group"  [ngClass]="{
+                        'has-danger': name.invalid && (name.dirty || name.touched),
+                        'has-success': name.valid && (name.dirty || name.touched)}">
+                     <textarea id="form_message" name="message" class="form-control" placeholder="Enter your message" rows="4" [(ngModel)]="model.message" #message="ngModel" required></textarea>
+                     <div *ngIf="message.errors && (message.dirty || message.touched)" class="alert alert-danger">
+                            <div *ngIf="message.errors.required">Please enter your Queries</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 contact-button ">
+                      <input type="submit" class="contact-submit-button"  [disabled]="!f.valid">
+                    
+                    </div>
+                  </div>
+                </div>
+        
+                </form>
+        
+              </div>
+        
+            </div>
+        
+          </div>
+        </div>
+      

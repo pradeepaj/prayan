@@ -1,9 +1,9 @@
 
 .carousel-fullscreen .carousel-inner .item {
-    height: 100vh; 
-    min-height: 600px; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+    height: 100vh;
+    min-height: 750px;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -61,6 +61,10 @@ h1,h2,h3,h4 {
     padding: 8px;
     font-size: 20px;
     border: #ed3e3e;
+    border-radius: 6px;
+}
+.carousel-button:hover {
+    background: black;
 }
 a.banner-button {
     color: white;
@@ -121,15 +125,15 @@ and (max-device-width : 480px) {
        
     }
     .carousel-caption {
-        width: auto !important;
+        width: auto ;
     }
     span.glyphicon.glyphicon-chevron-left {
-        margin-left: auto !important;
-        font-size: 21px !important;
+        margin-left: auto ;
+        font-size: 21px ;
     }
     span.glyphicon.glyphicon-chevron-right {
-        margin-right: auto !important;
-        font-size: 21px !important;
+        margin-right: auto ;
+        font-size: 21px ;
     }
 }
 
@@ -138,7 +142,7 @@ and (max-device-width : 480px) {
 /* liki-start */
 .second{
     background-color: white;
-    padding: 30px;
+ 
 }
 .wr{
     padding: 20px;
@@ -151,7 +155,7 @@ and (max-device-width : 480px) {
 }
 
 .fd2{
-    margin: 0px 20px 0px 20px;
+ 
     background-color: #0174c5;
     padding: 25px;
     color: white;
@@ -182,6 +186,7 @@ and (max-device-width : 480px) {
     margin-left: 120px;
     color: white;
     background-color: #000000;
+    border-radius: 7px;
 }
 h1.secdiv-right-title {
     color: #0174c5;
@@ -296,6 +301,7 @@ and (max-device-width : 1024px) {
 .top{
     top: 348px;
  }
+
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -436,8 +442,55 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
 .button_con {
-    margin-left: 156px;
+    margin-left: 0px;
 }
+.full {
+   
+    text-align: center;
+}
+.button{
+    
+    margin-left: 0px;
+    margin-top: 10px;
+   
+   
+}
+span.glyphicon.glyphicon-chevron-left {
+    margin-left: -40px;
+    font-size: 40px;
+}
+span.glyphicon.glyphicon-chevron-right{
+    margin-right: -24px;
+    font-size: 40px;
+}
+.leftRs {
+   
+    margin: 33px -25px;}
+
+    .rightRs{
+       
+        margin: 33px -21px;
+    }
+    .carousel-fullscreen.carousel-caption {
+       
+        left: 14% !important;
+      
+    }
+    .button_con {
+        margin-left: 0px;
+    }
+    .full {
+       
+        text-align: center;
+    }
+    .button{
+        
+        margin-left: 0px;
+        margin-top: 10px;
+       
+       
+    }
+ 
 }
 /* contact ends */
 

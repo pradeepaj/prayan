@@ -1,0 +1,395 @@
+/* .mobile-main{
+    background-image: url(../../assets/images/phone.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  
+} */
+.mobile-sec {
+    margin-top: 107px;
+}
+
+.mob-title {
+    color: #0174c5;
+    font-weight: bold;
+    text-align: center;
+}
+.mobile-large {
+    width: 636px;
+}
+.mobile-content {
+    position: absolute;
+    top: 48px;
+    text-align: center;
+    padding: 26px 119px 13px 222px;
+    color: white;
+}
+.mobile-content1 {
+    position: absolute;
+    top: 48px;
+    text-align: center;
+    padding: 26px 206px 13px 222px;
+    color: white;
+}
+.mobile-icon {
+    padding-top: 10px;
+}
+
+.mobile-main {
+    position: relative;
+}
+.mobile-single {
+    
+    right: 37px;
+    padding-top: 30px;
+}
+
+.mobile-single1 {
+   
+    margin-top: 254px;
+}
+.big-hr2{
+    /* border-top: 5px solid #8c8b8b; */
+    /* border-bottom: transparent;  */
+    margin-top: 572px !important;
+}
+.big-hr22{
+    height: 4.5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8a8a8a;
+    
+    border: 0 none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mobile-single2 {
+  
+    top: -172px;
+    position: absolute;
+   
+}
+.for-mobile{
+    display: none;
+    visibility: hidden;
+}
+.mob-infinity{
+    display: block;
+    visibility: visible;
+}
+.infinity-mobile
+{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+
+/* ============================ */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .mobile-sec{
+       display: none;
+       visibility: hidden;
+      
+   }
+   /* =========== */
+   .for-mobile{
+    visibility: visible;
+    display: block;
+    margin-top: 68px;
+    text-align: center;
+   }
+   img.for-mobile-large {
+    width: 100%;
+    height: auto;
+}
+.for-mobile-content {
+    position: absolute;
+    top: 30px;
+    padding: 0px 108px;
+    color: white;
+}
+/* .for-description {
+    padding: 0px 107px;
+   
+    color: white;
+    font-size: 14px;
+} */
+.for-mobile-icon{
+    width: 29px;
+} 
+.for-title {
+   
+    font-weight: bold;
+    font-size: 28px;
+}
+.for-mob-title {
+    color: #0174c5;
+    font-weight: bold;
+}
+.mob-infinity{
+    display: none !important;
+    visibility: hidden;
+}
+
+
+
+/* ==========================
+infinity mobile
+ */
+ img.infinity-img {
+    width: 100%;
+}
+
+.infinity-mobile
+{
+    display: block;
+    visibility: visible;
+}
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+   
+    .mobile-single1 {
+        margin-top: 705px;
+    }
+    .mobile-single2 {
+        top: -1307px;
+    }
+    .mobile-content {
+      
+        padding: 26px 289px 10px 228px;
+       
+    }
+    .mob-infinity{
+        display: none !important;
+        visibility: hidden;
+    }
+    
+    
+    
+    /* ==========================
+    infinity mobile
+     */
+     img.infinity-img {
+        width: 100%;
+    }
+    
+    .infinity-mobile
+    {
+        display: block;
+        visibility: visible;
+    }
+    
+}
+
+
+
+
+
+/* ======= */
+
+#infinity {
+    position: relative;
+    width: 733px;
+    height: 273px;
+    margin-top: 51px;
+    margin-left: 50px;
+}
+
+#infinity:before,
+#infinity:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 347px;
+    height: 347px;
+    border: 79px solid #0174c5;
+    
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -moz-border-radius: 208px 229px 0 231px;
+    border-radius: 208px 229px 0 231px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+#infinity:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius:  187px 169px 192px 0;
+   
+    border-radius: 187px 169px 192px 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+   
+.mob-infinity {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    position: relative;
+}
+
+
+.hr-contact-left1 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 80px;
+    left: 657px;
+    top: 68px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+    
+    transform: rotate(23deg);    
+}
+.hr-contact-left2 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 80px;
+    left: 454px;
+    top: 170px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+   
+    transform: rotate(-78deg);   
+}
+.hr-contact-left3 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 80px;
+    left: 606px;
+    top: 311px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+   
+    transform: rotate(-193deg);
+}
+
+.hr-contact-right1 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 85px;
+    right: 602px;
+    top: 66px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+   
+    transform: rotate(-183deg);
+}
+.hr-contact-right2 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 84px;
+    right: 405px;
+    top: 198px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+  
+    transform: rotate(-104deg);
+}
+.hr-contact-right3 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 94px;
+    right: 581px;
+    top: 301px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+    
+    transform: rotate(-192deg);
+}
+
+.infinity-left-text1 h4 {
+    position: absolute;
+    color: #fff;
+    left: 494px;
+    top: 97px;
+    transform: rotate(-30deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.infinity-left-text2 h4 {
+    position: absolute;
+    color: #fff;
+    left: 475px;
+    top: 297px;
+    
+    transform: rotate(45deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.infinity-left-text3 h4 {
+    position: absolute;
+    color: #fff;
+    left: 681px;
+    top: 208px;
+   
+    transform: rotate(45deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.infinity-left-text4 h4 {
+    position: absolute;
+    color: #fff;
+    left: 661px;
+    top: 274px;
+   
+    transform: rotate(-42deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.infinity-left-text5 h4 {
+    position: absolute;
+    color: #fff;
+    right: 609px;
+    top: 148px;
+   
+    transform: rotate(-44deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.infinity-left-text6 h4 {
+    position: absolute;
+    color: #fff;
+    right: 440px;
+    top: 100px;
+   
+    transform: rotate(30deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.infinity-left-text7 h4 {
+    position: absolute;
+    color: #fff;
+    right: 440px;
+    top: 313px;
+    
+    transform: rotate(-34deg);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}

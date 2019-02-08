@@ -1,9 +1,6 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild} from '@angular/core';
 
-class Contact {
-  constructor(
-  ) {}
-}
+
 
 @Component({
   selector: 'app-contact',
@@ -11,17 +8,27 @@ class Contact {
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
- model: any = {};
+ model = {
+   name: '',
+   secname: '',
+   phone: '',
+   email: '',
+   message: '',
+ };
   @ViewChild('f') form: any;
 
-  constructor() { }
+  constructor() {}
   ngOnInit() {
   }
   onSubmit() {
     console.log(this.model);
 
-    alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.model));
+    alert('SUCCESS!! :-)\n\n' + 'Thank you for submitting your queries' + JSON.stringify(this.model));
    this.form.reset();
   }
+
+
+
+
 
 }

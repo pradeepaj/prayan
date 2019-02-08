@@ -1,94 +1,111 @@
 
-/*Why Choose*/
 
-.why-choose {
-    padding: 90px 0;
-    padding-bottom: 120px;
+/* ==================================== */
+.who-we-are {
+    margin-top: 72px;
+}
+.who-we-are-title{
+    text-align: center;
+    padding: 40px;
+    color: #0174c5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.who-we-are-text-content {
+   
+    padding-bottom: 33px;
+    text-align: justify;
 }
 
-.title-3 {
-    position: relative;
-    margin-bottom: 100px;
-}
 
-.why-choose .title-3 {
-    margin-bottom: 56px;
-    text-align: center
+.what-we-do-right {
+    display: flex;
+    padding: 10px 0px 10px 0px;
 }
-
-.title-3:after {
-    content: "";
-    height: 6px;
-    width: 133px;
-    position: absolute;
-    background-color: #bebebe;
-    bottom: -35px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+.what-we-do-left {
+    display: flex;
+    padding: 10px 0px 10px 0px;
 }
-
-.why-choose__inner .box-head {
-    width: 88px;
+.service-img1 {
+    width: 98px;
+    padding: 40px 20px 20px 23px;
 }
-
-.why-choose__inner .box-head--border {
-    border: 3px solid #bbbbbb;
+.what-we-do-sub-title {
+    color: #0174c5;
+    font-weight: bold;
 }
-
-.why-choose__inner .box-head--border i {
-    color: #333;
-    font-size: 36px;
-    line-height: 82px;
-    padding: 0px 17px 0px 20px;
-    
-}
-
-.why-choose__inner .box-body h3 {
-    margin-bottom: 7px;
-    line-height: 1;
-}
-
-.why-choose__inner .box-body p {
-    line-height: 20px;
-}
-
-.why-choose__inner .box-body--right {
-    margin-left: 88px;
-    padding-left: 30px;
-    padding-right: 0;
-    margin-top: -87px;
-}
-
-.why-choose__inner .box-body--left {
+.what-we-do-sub-title-right{
+    color: #0174c5;
+    font-weight: bold;
     text-align: right;
-    margin: 0;
-    margin-right: 88px;
-    padding-right: 30px;
-    padding-left: 0;
 }
-
-.why-choose__inner .box-head--right {
-    float: right;
-}
-.fa-building:before {
-    content: "\f1ad";
-    padding-left: 8px;
-}
-.fa-award:before {
-    content: "\f559";
-    padding-left: 8px;
+.what-we-do-content {
+    text-align: justify;
 }
 
 
 
 
+/* =================== */
+.why-choose-us{
+    margin-top: 140px;
+    margin-bottom: 50px;
+    }
+    
+    .why-choose-us-title{
+         text-align: center;
+         color: #0174c5;
+         font-weight: bold;
+         margin-bottom: 30px;
+    }
+    
+    .why-choose-us-subtitle{
+         width: 123px;
+         font-size: 21px;
+         margin-left: 503px;
+         height: 42px;
+         margin-bottom: 20px;
+         background: #43bde4;
+         border-radius: 8px;
+         text-align: center;
+         padding: 5px;
+         font-weight: bold;
+         color: white;
+    }
+    
+    
+    
+       .text {
+        border: solid 2px #43bde4;
+     
+        color: #01bde4;
+        border-radius: 15px;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    .boxes {
+         padding: 0px 110px 0px 114px;
+    }
+    .boxes2 {
+        padding: 29px 110px 0px 114px;
+   }
+    
+    h4.why-choose-subtitle {
+        text-align: center;
+        /* width: 100px; */
+        background: #43bde4;
+        margin: 27px 537px;
+        /* padding: 10px; */
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
 
-
-
+.for-mobile{
+    display: none;
+    visibility:hidden;
+}
 
 
 
@@ -109,8 +126,65 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    .service-3__item.bottom-shadow {
-        padding-bottom: 134px;
+    .why-choose-us {
+        margin-top: 40px;
+        margin-bottom: 50px;
     }
     
+h4.why-choose-subtitle{
+  
+    margin: 0px 5px;
+   
+}
+.service-image{
+    width:100%
+}
+.for-mobile{
+    display: block;
+    visibility:visible;
+}
+.for-desktop{
+    display: none;
+    visibility: hidden;
+}
+.boxes {
+    
+    padding: 10px 0px 0px 0px;
+}
+.boxes2 {
+    padding:0px;
+}
+    
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .for-mobile{
+        display: block;
+        visibility:visible;
+    }
+    .for-desktop{
+        display: none;
+        visibility: hidden;
+    }
+
+    .why-choose-us {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    h4.why-choose-subtitle[_ngcontent-c3] {
+       
+        margin: 0px;
+       
+    }
+    .boxes{
+        padding: 10px 110px 0px 114px;
+    
+    }
+    .boxes2 {
+        padding: 2px 110px 0px 114px;
+    }
+/* Styles */
 }

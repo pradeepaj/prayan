@@ -1,0 +1,56 @@
+.service{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.service-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #0174c5;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+img.service-image {
+    width: 334px;
+    height: 270px;
+}
+
+.digi-description {
+    padding: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+.service-heading{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 262px;
+
+    color: #0174c5;
+}
+.digi {
+    text-align: center;
+}
+
+
+
+
+/* ============================= */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+  }
+  @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

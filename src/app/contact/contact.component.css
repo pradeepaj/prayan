@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+/* @import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
 .contact-form{
     background: #fff;
     margin-top: 8%;
@@ -25,9 +25,7 @@
     padding: 11%;
     font-family: 'Montserrat', sans-serif;
 }
-/* .contact-form form .row{
-    margin-bottom: -7%;
-} */
+
 .contact-form h3{
     margin-bottom: 8%;
     margin-top: -10%;
@@ -43,7 +41,7 @@
     background: #1e4e9b;
     font-weight: 600;
     color: #fff;
-    /* cursor: pointer; */
+   
 }
 .btnContact:hover{
     background: #333 !important;
@@ -56,7 +54,7 @@
     color: #fff;
     background-color: #1e4e9b;
     border: none;
-    /* cursor: pointer; */
+  
     text-align: center;
 }
 .btnContact.focus, .btnContact:focus {
@@ -89,4 +87,134 @@ and (max-device-width : 480px) {
         margin: 2px 14px 0px 14px;
          line-height:1.5; 
     }
+} */
+
+/* contact form banner */
+
+img.img-contact-banner {
+   
+   
+    width: 100%;
+    height: 521px;
 }
+
+.col-md-12.col-12.contact-banner {
+    padding: 0px;
+    position: relative;
+}
+.contact-text {
+    position: absolute;
+    top: 201px;
+    color: white;
+    text-align: center;
+    left: 326px;
+}
+h1.contact-title {
+    font-size: 55px;
+    font-weight: bold;
+}
+p.contact-content {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/* ==== */
+
+.contact-us {
+    margin: 70px auto;
+}
+.icon-img {
+    text-align: center;
+  
+}
+.contact-icon{
+    width: 39px;
+}
+h3.contact-sub-title {
+    color: #0174c5;
+    font-weight: bold;
+}
+.who-we-are-title{
+    text-align: center;
+    padding: 40px;
+    color: #0174c5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.email {
+    padding-left: 106px;
+}
+.phone-number {
+    padding-left: 61px;
+}
+.contact-button {
+    text-align: center;
+    padding: 40px;
+  
+}
+.contact-submit-button{
+    color: #0174c5;
+    background: transparent;
+    outline: none;
+    border: #0174c5 1.5px solid;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.contact-submit-button:hover{
+    color: #000;
+    background: transparent;
+    outline: none;
+    border: #000 1.5px solid;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.form-control {
+ 
+    border-radius: 8px;
+    line-height: 1.928571;
+}
+
+.alert {
+    padding: 9px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* ==================================== */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .contact-text {
+       
+        left: 0px;
+    }
+    .email {
+        padding-left: 0px;
+    }
+    .phone-number {
+        padding-left: 0px;
+    }
+   
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .contact-text{
+       
+        left: 0px;
+    }
+    .email {
+        padding-left: 35px;
+    }
+    .phone-number {
+        padding-left: 37px;
+    }
+}
+
+

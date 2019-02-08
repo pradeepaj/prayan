@@ -1,0 +1,369 @@
+
+/* training-banner */
+img.img-training-banner {
+   
+   
+    width: 100%;
+    height: 521px;
+}
+
+.col-md-12.col-12.training-banner {
+    padding: 0px;
+    position: relative;
+}
+.training-text {
+    position: absolute;
+    top: 201px;
+    color: white;
+    left: 104px;
+}
+h1.training-title {
+    font-size: 55px;
+    font-weight: bold;
+}
+p.training-content {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button.training-banner-button {
+    background-color: #ed3e3e;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border: #ed3e3e;
+    outline: none;
+    margin-left: 115px;
+}
+/* training-banner */
+/* liki-start */
+.second{
+    background-color: white;
+    padding: 30px;
+}
+.wr{
+    padding: 20px;
+}
+.fd{
+    background-color: #0174c5;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+
+.fd2{
+    margin: 0px 20px 0px 20px;
+    background-color: #0174c5;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+.r1{
+    /* background-image: url(../../assets/images/1.jpg); */
+    height: 300px;
+}
+.r2{
+    background-color: white;
+    height: 300px;
+    color: black;
+}
+.write{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding: 60px;
+}
+.write1{
+    font-size: 18px;
+    text-align: center;
+    padding: 60px;
+}
+.button{
+    font-size: 20px;
+    margin-left: 120px;
+    color: white;
+    background-color: #000000;
+}
+h1.secdiv-right-title {
+    color: #0174c5;
+}
+.getintouch{
+    color:white;
+}
+
+/* course curruculum */
+.course-curricullum {
+    margin-top: 51px;
+}
+ul.curri-left-ul li {
+    color: #0174c5;
+    font-size: 19px;
+    padding: 6px;
+}
+ul.curri-right-ul li {
+    color: #0174c5;
+    font-size: 19px;
+    padding: 6px;
+}
+i.fas.fa-caret-right {
+    padding-right: 9px;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* course curruculum */
+
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.write{
+    font-size: 20px;
+    padding: 30px;
+}
+.write1{
+    padding: 24px;
+}
+.fd2{
+    margin: 0px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+}
+
+/* case start */
+ /* case start */
+.card{
+   background-color: #1a2345;
+}
+.card1{
+    padding: 60px;
+ }
+.head {
+    text-align: center;
+    padding: 50px;
+   
+    background-color: #0174c5;
+    color: #fff;
+   
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+.description {
+    padding: 68px 20px 0px 20px;
+    background-color: white;
+    color: black;
+    height: 314px;
+}
+.image img{
+    width: 100%
+}
+.top{
+    background-color: #0174c5;
+    position: absolute;
+  
+    color: #fff;
+    max-width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 77px 10px 10px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), inset 0 -5px 0 rgba(255,255,255,0.03), inset -20px 0 0 rgba(0,0,0,0.2), inset -21px 0 0 rgba(255,255,255,0.05), inset -40px 0 0 rgba(0,0,0,0.1), inset -41px 0 0 rgba(255,255,255,0.05);
+}
+
+.top:hover {
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,.1), inset 0 -5px 0 rgba(255,255,255,.03), inset -10px 0 0 rgba(0,0,0,.2), inset -11px 0 0 rgba(255,255,255,.05), inset -20px 0 0 rgba(0,0,0,.1), inset -21px 0 0 rgba(255,255,255,.05);
+}
+
+.cardele{
+    padding: 10px;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.card1{
+    padding: 0px;
+}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+.card1{
+    padding: 25px;
+}
+}
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+.top{
+   top :140px;
+}
+}
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+/* Styles */
+.top{
+    top :160px;
+ }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+.top{
+    top: 348px;
+ }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (orientation : landscape) {
+/* Styles */
+.top{
+    top: 127px;
+}
+}
+/* case end */
+
+
+/* liki end */
+
+/* practice section start*/
+section.practice {
+    margin-top: 76px;
+    margin-left: 71px;
+    margin-right: 71px;
+    padding-bottom: 120px;
+}
+.practice-left {
+    margin-bottom: 0;
+    text-align: justify;
+    padding-right: 101px;
+    padding-top: 94px;
+}
+.practice-left-title {
+    font-size: 33px;
+    color: #0174c5;
+    font-weight: bold;
+}
+.practice-left-content {
+    font-size: 18px;
+}
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+.practice-icon {
+    font-size: 50px;
+   padding: 10px 10px 0px 0px;
+}
+.practice-title {
+    font-size: 22px;
+    color: #0174c5;
+    padding: 2px 10px 10px 0px;
+}
+.readmore  {
+    padding: 10px 0px;
+    
+}
+.readmore a {
+    padding: 10px 0px;
+    color: #ed3e3e;
+    font-size: 16px;
+}
+h1.title-verticale {
+    font-size: 21px;
+}
+h1.main-title {
+    font-size: 45px;
+    line-height: 1.3;
+}
+a.link-readmore:hover {
+    color: #0174c5;
+}
+/* img.service-img {
+    width: 40%;
+} */
+.practice-row2 {
+    padding-top: 26px;
+}
+/* practice section end */
+
+/* cource-dropdown */
+
+.cource-curru {
+    margin-top: 30px;
+    text-align: center;
+}
+button.btn.btn-info.btn-lg.course-highlights {
+    color: #0174c5;
+    background: #dadada;
+    border-radius: 18px;
+    border: transparent;
+    outline: none;
+    padding: 10px 15px;
+}
+.modal-content{
+    margin-top: 114px;
+}
+
+/* cource-dropdown */
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .training-text {
+     
+        top: 107px;
+   
+        left: 0px;
+        text-align: center;
+    }
+    button.training-banner-button {
+     
+        margin-left: 4px;
+    }
+
+    section.practice {
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .practice-left {
+       
+        padding-top: 0px;
+    }
+    .top {
+        top: 9px;
+    }
+
+    .description {
+        padding: 51px 20px 0px 20px;}
+    }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .practice-left {
+            
+            padding-top: 0px;
+        }
+        .top{
+            top: 10px;
+        }
+
+        .description[_ngcontent-c2] {
+            
+            font-size: 21px;}
+        }
+    

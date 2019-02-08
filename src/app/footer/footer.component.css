@@ -112,6 +112,47 @@ and (max-device-width : 480px) {
 .contact-info{
    padding: 0px;
 }
+.contact-links{
+  margin-top  : 10px;
+}
+.row.prayan-footer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.col-md-5.col-12.contact-info {
+
+  order: 1;
+  text-align: left
+}
+.col-md-2.contact-links {
+  text-align: left;
+}
+#map-container[_ngcontent-c2] {
+ padding-left: 0px;
+  margin-right: -16px;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+  .row.prayan-footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .col-md-5.col-12.contact-info {
+  padding: 0;
+    order: 1;
+    text-align: left
+  }
+  #myFooter.row {
+    margin: 0 36px;
+    padding-top: 3%;
+}
+#map-container {
+
+  padding-left: 0px;
+}
 }
 
 /* footer end */

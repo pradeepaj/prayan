@@ -125,9 +125,9 @@
     margin-top: 18px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #555;
-    text-transform: capitalize;
-    font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 17px;
 }
 .navbar-default .navbar-nav>li>a:hover{
     color:#0174c5;
@@ -178,4 +178,28 @@
 } 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #444;
+}
+ul.dropdown-menu {
+  text-transform: uppercase;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .container-fluid {
+  
+    padding-left: 10px !important;
+   
+}
+.navbar-right {
+  
+  margin-top: 0px;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .navbar-right{
+    margin-right: 0px;
+ 
+}
 }
