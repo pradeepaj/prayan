@@ -250,53 +250,53 @@ and (max-device-width : 1024px) {
 .hr-contact-left1 hr{ 
     border-left: 1.5px solid #fff;
     height: 80px;
-    left: 657px;
-    top: 68px;
+    left: 272px;
+    top: 57px;
+    width: 0px;
+    position: absolute;
+    margin-top: 0px;
+   
+    transform: rotate(23deg);   
+}
+.hr-contact-left2 hr{ 
+    border-left: 1.5px solid #fff;
+    height: 87px;
+    left: 101px;
+    top: 190px;
     width: 0px;
     position: absolute;
     margin-top: 0px;
     
-    transform: rotate(23deg);    
-}
-.hr-contact-left2 hr{ 
-    border-left: 1.5px solid #fff;
-    height: 80px;
-    left: 454px;
-    top: 170px;
-    width: 0px;
-    position: absolute;
-    margin-top: 0px;
-   
-    transform: rotate(-78deg);   
+    transform: rotate(103deg);
 }
 .hr-contact-left3 hr{ 
     border-left: 1.5px solid #fff;
     height: 80px;
-    left: 606px;
-    top: 311px;
+    left: 253px;
+    top: 314px;
     width: 0px;
     position: absolute;
     margin-top: 0px;
-   
+    
     transform: rotate(-193deg);
 }
 
 .hr-contact-right1 hr{ 
     border-left: 1.5px solid #fff;
-    height: 85px;
-    right: 602px;
-    top: 66px;
+    height: 81px;
+    right: 242px;
+    top: 64px;
     width: 0px;
     position: absolute;
     margin-top: 0px;
-   
-    transform: rotate(-183deg);
+    
+    transform: rotate(-193deg);
 }
 .hr-contact-right2 hr{ 
     border-left: 1.5px solid #fff;
-    height: 84px;
-    right: 405px;
-    top: 198px;
+    height: 87px;
+    right: 51px;
+    top: 197px;
     width: 0px;
     position: absolute;
     margin-top: 0px;
@@ -306,21 +306,22 @@ and (max-device-width : 1024px) {
 .hr-contact-right3 hr{ 
     border-left: 1.5px solid #fff;
     height: 94px;
-    right: 581px;
+    right: 206px;
     top: 301px;
     width: 0px;
     position: absolute;
     margin-top: 0px;
-    
+   
     transform: rotate(-192deg);
 }
 
 .infinity-left-text1 h4 {
     position: absolute;
     color: #fff;
-    left: 494px;
-    top: 97px;
-    transform: rotate(-30deg);
+    left: 138px;
+    top: 110px;
+    
+    transform: rotate(-41deg);
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
@@ -328,9 +329,9 @@ and (max-device-width : 1024px) {
 .infinity-left-text2 h4 {
     position: absolute;
     color: #fff;
-    left: 475px;
-    top: 297px;
-    
+    left: 125px;
+    top: 303px;
+   
     transform: rotate(45deg);
     font-weight: bold;
     font-size: 16px;
@@ -340,9 +341,9 @@ and (max-device-width : 1024px) {
 .infinity-left-text3 h4 {
     position: absolute;
     color: #fff;
-    left: 681px;
-    top: 208px;
-   
+    left: 319px;
+    top: 199px;
+    
     transform: rotate(45deg);
     font-weight: bold;
     font-size: 16px;
@@ -351,7 +352,7 @@ and (max-device-width : 1024px) {
 .infinity-left-text4 h4 {
     position: absolute;
     color: #fff;
-    left: 661px;
+    left: 304px;
     top: 274px;
    
     transform: rotate(-42deg);
@@ -362,9 +363,9 @@ and (max-device-width : 1024px) {
 .infinity-left-text5 h4 {
     position: absolute;
     color: #fff;
-    right: 609px;
-    top: 148px;
-   
+    right: 250px;
+    top: 136px;
+    
     transform: rotate(-44deg);
     font-weight: bold;
     font-size: 16px;
@@ -373,10 +374,10 @@ and (max-device-width : 1024px) {
 .infinity-left-text6 h4 {
     position: absolute;
     color: #fff;
-    right: 440px;
-    top: 100px;
-   
-    transform: rotate(30deg);
+    right: 80px;
+    top: 105px;
+    
+    transform: rotate(35deg);
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
@@ -385,9 +386,9 @@ and (max-device-width : 1024px) {
 .infinity-left-text7 h4 {
     position: absolute;
     color: #fff;
-    right: 440px;
+    right: 82px;
     top: 313px;
-    
+   
     transform: rotate(-34deg);
     font-weight: bold;
     font-size: 16px;

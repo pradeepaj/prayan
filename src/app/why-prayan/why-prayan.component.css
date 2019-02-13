@@ -14,6 +14,7 @@
 .who-we-are-text-content {
    
     padding-bottom: 33px;
+    padding-top: 85px;
     text-align: justify;
 }
 
@@ -154,8 +155,37 @@ h4.why-choose-subtitle{
 .boxes2 {
     padding:0px;
 }
+.text{
+    margin: 10px;
+}
     
 }
+
+
+/* iphone 6,7,8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+.text{
+    margin: 0px;
+}
+    .box {
+        margin: 14px;
+    }
+    }
+/* iphone 6,7,8 plus */
+    @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .box {
+        margin: 23px;
+    }
+
+}
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
@@ -185,6 +215,10 @@ and (orientation : portrait) {
     }
     .boxes2 {
         padding: 2px 110px 0px 114px;
+    }
+
+    .text{
+        margin: 51px;
     }
 /* Styles */
 }

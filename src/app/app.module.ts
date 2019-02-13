@@ -38,7 +38,6 @@ import { DigitalComponent } from './digital/digital.component';
     MobileComponent,
     WebDevelopmentComponent,
     DigitalComponent,
-   
   ],
   imports: [
     BrowserModule,

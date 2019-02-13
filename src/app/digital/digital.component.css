@@ -45,6 +45,14 @@ and (max-device-width : 480px) {
     display: flex;
     flex-direction: column-reverse;
 }
+
+.service-heading {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 0px;
+    color: #0174c5;
+    text-align: center;
+}
   }
   @media only screen 
 and (min-device-width : 768px) 

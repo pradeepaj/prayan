@@ -1,11 +1,15 @@
 
 /* training-banner */
+.training-bannerr {
+    margin-top: 86px;
+}
 img.img-training-banner {
    
    
     width: 100%;
-    height: 521px;
+    height: 475px;
 }
+
 
 .col-md-12.col-12.training-banner {
     padding: 0px;
@@ -13,7 +17,7 @@ img.img-training-banner {
 }
 .training-text {
     position: absolute;
-    top: 201px;
+    top: 111px;
     color: white;
     left: 104px;
 }
