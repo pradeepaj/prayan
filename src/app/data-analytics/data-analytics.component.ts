@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataAnalyticsComponent implements OnInit {
   show = false;
-  buttonName = 'Course curruculum';
+  buttonName = 'Course curriculum';
   hide: any;
 
   toggle() {
@@ -17,7 +17,7 @@ export class DataAnalyticsComponent implements OnInit {
   this.buttonName = 'Course Highlights';
   // console.log(this.show);
   } else {
-  this.buttonName = 'Course curruculum';
+  this.buttonName = 'Course curriculum';
   }
   }
 

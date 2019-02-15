@@ -111,6 +111,7 @@
     top: 30px;
     padding: 0px 108px;
     color: white;
+    font-size: 12px;
 }
 /* .for-description {
     padding: 0px 107px;
@@ -135,7 +136,37 @@
     visibility: hidden;
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
+    .for-mobile-content {
+        position: absolute;
+        top: 30px;
+        padding: 0px 114px;
+        color: white;
+        font-size: 12px;
+    }
+  
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .for-mobile-content{
+      
+        padding: 0px 128px;
+        font-size: 14px;
+    }
+
+}
 
 /* ==========================
 infinity mobile

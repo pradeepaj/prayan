@@ -27,12 +27,25 @@ export class AssociatesComponent implements OnInit {
       'assets/images/prayan.png',
       'assets/images/prayan-1.png',
       'assets/images/prayan-2.png',
+      'assets/images/prayan-3.png',
+      'assets/images/prayan.png',
+      'assets/images/prayan-1.png',
+      'assets/images/prayan-2.png',
+      'assets/images/prayan-3.png',
+      'assets/images/prayan.png',
+      'assets/images/prayan-1.png',
+      'assets/images/prayan-2.png',
+      'assets/images/prayan-3.png',
+      'assets/images/prayan.png',
+      'assets/images/prayan-1.png',
+      'assets/images/prayan-2.png',
       'assets/images/prayan-3.png'
+
     ];
 
     this.carouselTile = {
       grid: { xs: 2, sm: 3, md: 3, lg: 4, all: 0 },
-      speed: 600,
+      speed: 1000,
       interval: 3000,
       point: {
         visible: true,
@@ -62,7 +75,8 @@ export class AssociatesComponent implements OnInit {
         `
       },
       load: 2,
-      touch: true
+      touch: true,
+      loop: true
     };
 
     this.carouselTileLoad();
@@ -70,10 +84,10 @@ export class AssociatesComponent implements OnInit {
 
   public carouselTileLoad() {
     const len = this.carouselTileItems.length;
-    if (len <= 20) {
-      for (let i = len; i < len + 15; i++) {
+    if (len <= 10) {
+      for (let i = len; i < len + 4.5; i++) {
         this.carouselTileItems.push(
-          this.imgags[Math.floor(Math.random() * this.imgags.length)]
+          this.imgags[i]
         );
       }
     }

@@ -160,7 +160,7 @@ and (max-device-width : 480px) {
     padding: 68px 20px 0px 20px;
     background-color: white;
     color: black;
-    height: 314px;
+    height: 305px;
 }
 .image img{
     width: 100%
@@ -255,7 +255,7 @@ section.practice {
     margin-bottom: 0;
     text-align: justify;
     padding-right: 101px;
-    padding-top: 94px;
+    padding-top: 56px;
 }
 .practice-left-title {
     font-size: 33px;
